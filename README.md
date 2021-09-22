@@ -1,4 +1,4 @@
-##Build a basic recipe website.
+Build a basic recipe website.
 
 Using:
 - Unordered list
