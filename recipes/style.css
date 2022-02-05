@@ -126,20 +126,23 @@ button:hover{
   }
 
   .momo{
+      float: left;
       filter: brightness(100%);
-      margin-top: 5%;
-      margin-left: 10%;
+      margin-top: 2%;
+      margin-left: 5%;
       width: 300px;
       height: 300px;
       border-radius: 90%;
+    
   }
 
   .gyoza {
+      float: right;
       filter: brightness(100%);
-      margin-top: 100%;
+      margin-top: 110%;
       width: 300px;
       height: 300px;
-      margin-left: 70%;
+      margin-right:5%;
       border-radius: 90%;
   }
 
@@ -148,11 +151,35 @@ button:hover{
   }
 
   .dumpling{
+    float: left;
     filter: brightness(100%);
-    margin-top: 70%;
-    margin-left: 10%;
+    margin-top: 20%;
+    margin-left: 5%;
     width: 300px;
     height: 300px;
     border-radius: 90%;
   }
  
+
+  p{
+      font-style: italic;
+    color: rgba(255, 255, 255, 0.651);
+    font-size: 20px;
+  }
+
+  .momoPara{
+      margin-left: 28%;
+      margin-top: 8%;
+  }
+
+  .dumplingPara{
+      margin-top: 10%;
+  }
+
+  .momo, .gyoza, .dumpling{
+      cursor: pointer;
+  }
+
+  .momo:hover, .gyoza:hover, .dumpling:hover{
+      transform: scale(1.1);
+  }
