@@ -13,8 +13,6 @@ body::-webkit-scrollbar {
 
 
 
-
-
 .full {
   filter: brightness(30%);
   position: fixed;
@@ -47,15 +45,7 @@ hr {
    width: 780px;
 }
 
-.quote {
-    margin-top: 45%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: lighter;
-    font-size: 23px;
-    color: rgba(255, 255, 255, 0.801);
-}
+
 
 .check{
     display: flex;
@@ -222,3 +212,60 @@ button:hover{
       font-style: normal;
       font-family: 'Antonio', sans-serif;
   }
+
+
+  @media only screen and (max-width: 600px) {
+
+    .full{
+        height:100%;
+        width:100%;
+    }
+
+    h1 {
+        font-size: 50px;
+      margin-top: 50%;
+      margin-left: 50%;
+    }
+
+    hr {
+        width: 600px;
+     }
+     
+
+     .recipes{
+        width: 1000px;
+     }
+
+     .check{
+        width: 600px;
+        margin-left: 50%;
+        margin-top:80%;
+     }
+
+     .momo{
+         margin-top:0%;
+     }
+
+     .momoPara{
+         margin-top: 60%;
+     }
+
+     .gyoza{
+         margin-top: 0%;
+     }
+
+     .gyozaPara{
+         margin-top: 10%;
+         margin-left: 3%;
+     }
+     
+     button{
+         margin-left:50%;
+     }
+     
+     .fa-angle-double-down{
+        margin-left: 60%;
+     }
+      
+    }
+  
