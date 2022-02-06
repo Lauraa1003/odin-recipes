@@ -91,6 +91,7 @@ button:hover{
 
 }
 
+
 .fas.fa-angle-double-down{
     cursor: pointer;
     animation: bounce 3s infinite;
@@ -99,6 +100,14 @@ button:hover{
     left: 50%;
     color: rgba(255, 255, 255, 0.61);
     font-size: 30px;
+}
+
+.fas.fa-long-arrow-alt-down{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.329);
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: -10%;
 }
 
 @keyframes bounce {
@@ -128,8 +137,8 @@ button:hover{
   .momo{
       float: left;
       filter: brightness(100%);
-      margin-top: 2%;
-      margin-left: 5%;
+      margin-top: -2%;
+      margin-left: 2%;
       width: 300px;
       height: 300px;
       border-radius: 90%;
@@ -139,22 +148,19 @@ button:hover{
   .gyoza {
       float: right;
       filter: brightness(100%);
-      margin-top: 110%;
       width: 300px;
       height: 300px;
-      margin-right:5%;
+      margin-right:2%;
+      margin-top: -2%;
       border-radius: 90%;
   }
 
-  .gyozaDiv{
-      height: 1500px;
-  }
 
   .dumpling{
     float: left;
     filter: brightness(100%);
-    margin-top: 20%;
-    margin-left: 5%;
+    margin-left: 2%;
+    margin-top: -2%;
     width: 300px;
     height: 300px;
     border-radius: 90%;
@@ -162,19 +168,46 @@ button:hover{
  
 
   p{
-      font-style: italic;
-    color: rgba(255, 255, 255, 0.651);
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.788);
     font-size: 20px;
+    padding: 15px;
+    width: 700px;
+    font-family: 'Antonio', sans-serif;
+    font-weight: lighter;
+  }
+
+  .gyozaPara{
+      text-align: right;
+      margin-left: 26%;
+      margin-top:15%;
   }
 
   .momoPara{
-      margin-left: 28%;
-      margin-top: 8%;
+      margin-left: 24%;
+      margin-top: 5%;
+    }
+
+    
+    .dumplingPara{
+      margin-left: 23%;
+      margin-top: 15%;
+    }
+
+ .gyozaBtn{
+     margin-right: 65%;
+ }
+
+
+  .momoBtn,.gyozaBtn,.dumplingBtn{
+      position: relative;
+      margin-left: -30%;
+      border-color: rgba(255, 255, 255, 0.623);
+      border-style: none;
+      color: rgba(255, 255, 255, 0.568);
+      background-color: #f8961ed0;
   }
 
-  .dumplingPara{
-      margin-top: 10%;
-  }
 
   .momo, .gyoza, .dumpling{
       cursor: pointer;
@@ -182,4 +215,10 @@ button:hover{
 
   .momo:hover, .gyoza:hover, .dumpling:hover{
       transform: scale(1.1);
+  }
+
+  .headSection{
+      font-size: 30px;
+      font-style: normal;
+      font-family: 'Antonio', sans-serif;
   }
