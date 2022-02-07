@@ -2,4 +2,4 @@
 
 # Recipe website
 
-![This is an image](![This is an image](https://lauraa1003.github.io/odin-recipes/))
+[![Schermafbeelding.png](https://i.postimg.cc/LXmBXb7R/Schermafbeelding.png)](https://postimg.cc/Y4ymDbMy)
