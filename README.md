@@ -1,9 +1,5 @@
-Build a basic recipe website.
+[See live preview](https://lauraa1003.github.io/odin-recipes/) :point_left:
 
-Using:
-- Unordered list
-- Ordered list
-- Links
-- Images
-- Headings
-- Paragraphs
+#Recipe website
+
+![This is an image](![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
