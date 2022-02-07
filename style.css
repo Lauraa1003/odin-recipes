@@ -214,6 +214,39 @@ button:hover{
   }
 
 
+  footer{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15;
+    letter-spacing: 2px;
+    bottom: 2%;
+    position: absolute;
+   
+}
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.fab.fa-github {
+    margin-left: 5px;
+    color: white;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .fa-github:hover {
+    transform: rotate(360deg) scale(1.2);
+  }
+
+  a {
+      text-decoration: none;
+  }
+
+
   @media only screen 
     and (device-width: 414px) 
     and (device-height: 896px) {
@@ -270,4 +303,6 @@ button:hover{
      }
       
     }
+    
+
   
