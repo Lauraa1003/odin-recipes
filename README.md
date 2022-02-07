@@ -1,9 +1,5 @@
-Build a basic recipe website.
+[See live preview](https://lauraa1003.github.io/odin-recipes/) :point_left:
 
-Using:
-- Unordered list
-- Ordered list
-- Links
-- Images
-- Headings
-- Paragraphs
+# Recipe website
+
+[![Schermafbeelding.png](https://i.postimg.cc/LXmBXb7R/Schermafbeelding.png)](https://postimg.cc/Y4ymDbMy)
